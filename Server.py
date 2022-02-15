@@ -33,6 +33,6 @@ def ReceiveVideo():
         
         cv2.imshow('Server Receiving..,',frame)
         if cv2.waitKey(10) == ord('q'):
-            client.close()
+            server.close()
             
 ReceiveVideo()
