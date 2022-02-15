@@ -18,6 +18,6 @@ def StreamVideo():
         
         if cv2.waitKey(13) == ord('q'):
             cv2.destroyAllWindows()
-            server.close()
+            client.close()
                 
 StreamVideo()
