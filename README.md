@@ -1,3 +1,3 @@
-# Video Stream(From Client) Using Socket Python
+# Video Stream(From Client Only) Using Socket Python
  
  
